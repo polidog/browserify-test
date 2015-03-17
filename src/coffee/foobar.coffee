@@ -1,6 +1,8 @@
-Foo = require './foo.coffee'
-Bar = require './bar.coffee'
+Foo = require './foo'
+Bar = require './bar'
 
 class FooBar
   name: ->
     'foo and bar'
+
+module.exports = FooBar
